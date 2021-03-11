@@ -1,0 +1,77 @@
+body,html{
+    height:100%;
+}
+.full-height{
+    height:100%;
+}
+.footer{
+    background-color: black;
+    color: white;
+     text-align: center;
+     height:100%;
+     margin-bottom:0
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white !important;
+}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: #9d9d9d;
+    background-color: transparent;
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+.mk-flex{
+    display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+.flex-grow{
+    flex-grow: 1;
+}
+.pb{
+    padding-bottom:10px;
+}
+.todo{
+    height: 200px;
+    box-shadow: 0.5px 1px 6px 2px gray;
+    border-radius: 5px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.todo-image{
+    height:100%;
+    padding-left: 0;
+}
+.todo-image img{
+    display: inline-block;
+    height: 100%;
+}
+.todo-content{
+    height: 100%;
+}
+.cancel,.cancel:hover{
+    position: absolute;
+    top:4px;
+    right: 15px;
+    text-decoration: none;
+    
+}
+.edit,.edit:hover{
+    position: absolute;
+    top:4px;
+    right: 30px;
+    text-decoration: none; 
+}
+
+@media (max-width : 320px) {
+    .todo{
+        height: 150px;
+    }
+}
