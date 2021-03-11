@@ -8,6 +8,7 @@ from datetime import datetime
 # Create your views here.
 def home(request):
     todos = MyTodosModel.objects.all()
+    print("hmmm");
     return render(request,"mytodos/home.html",{"title":"home","todos":todos,"link":"home"})
 
 
